@@ -1,0 +1,39 @@
+Project: IP Machine
+
+Technologies and Tools Used:
+
+Flask: A Python framework for building web applications.
+PyODBC: A library for handling connections to SQL Server databases.
+HTML: The language used for building web pages and the user interface.
+CSV: A file format for tabular data storage.
+Python: The programming language in which the application was written.
+ConfigParser: A Python library for managing configuration files.
+
+Project Description:
+
+The "IP Machine" project is a web application created using the Flask framework in Python. The primary objective of this project was to provide users with access to a database and the ability to export data to a CSV file. The application was developed to facilitate the management and analysis of financial reports and transactions data.
+
+Key Features of the Project:
+
+Web Application: The "IP Machine" project is a web application, meaning users can access it through a web browser. The application runs on a Flask server.
+
+Data Search and Export: The core functionality of the project is the ability to search for data based on a client's login and date. Users input data into a form, and the application sends a query to the database to retrieve results.
+
+Session Handling: The application utilizes the Flask Session module to store user session information, allowing the storage of search results for later export.
+
+Database: The project uses a SQL Server database, and the connection configuration is stored in a configuration file (config.ini).
+
+Data Export to CSV: After conducting a search, users have the option to export the results to a CSV file, making it easier for further data analysis and processing.
+
+User Interface: The application features a simple user interface that enables users to input search data and interact with the results in the form of an HTML table.
+
+Project Results:
+
+The "IP Machine" project enables efficient data search and export from the database, significantly simplifying the handling of financial and transactional data. This tool allows users to quickly access the necessary information and process it for analysis and reporting.
+
+Project Insights and Skills Gained:
+
+Participating in the "IP Machine" project provided me with practical experience in developing web applications using the Flask framework and working with SQL Server databases. I learned how to handle sessions in web applications and gained skills in data export to CSV format. This project also enhanced my Python programming skills and knowledge of working with configuration files.
+
+The "IP Machine" project serves as an example of my ability to design, implement, and maintain web applications and work with databases in a business environment.
+

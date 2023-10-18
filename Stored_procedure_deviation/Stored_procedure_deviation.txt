@@ -1,0 +1,33 @@
+Real names of data bases and tables could be replaced.
+
+Stored Procedure: proc_deviation
+
+Description:
+
+The "proc_deviation" stored procedure is designed to perform a series of operations related to data extraction and file generation. The primary purpose of this procedure is to extract data from an external source, process it, and export it to a CSV file for archiving and reporting purposes. The procedure is executed with elevated privileges, ensuring access to the necessary resources.
+
+Procedure Steps:
+
+Temporary Table Creation: The procedure begins by checking for the existence of a temporary table named "#xs." If the table exists, it is dropped to ensure a clean slate. Subsequently, data is extracted from an external source using the OPENQUERY function and loaded into the "#xs" table. The data includes information related to various attributes.
+
+Intermediate Table Creation: Similarly, the procedure checks for the existence of another temporary table named "##x" and drops it if it exists. The data from the "#xs" table is then joined with data from other tables. The resulting dataset is loaded into the "##x" table and includes information such as various attributes. Data filtering and sorting are applied to refine the dataset.
+
+File Export: The procedure dynamically constructs an SQL Server query and exports the data from the "##x" table to a CSV file using the sqlcmd utility. The resulting CSV file is saved with a filename containing the current date.
+
+Error Handling: The procedure includes a comprehensive error-handling mechanism. In the event of an error, it captures error details and sends an email notification to designated recipients with detailed error information.
+
+Technologies and Tools:
+
+SQL Server: The stored procedure is designed to be executed within a SQL Server environment.
+SQLCMD: The sqlcmd utility is used to execute SQL queries and export data to a CSV file.
+T-SQL: The Transact-SQL language is used for writing and executing SQL queries within the stored procedure.
+SQL Server Agent: The procedure is likely scheduled to run periodically using SQL Server Agent.
+Results and Purpose:
+
+The "proc_deviation" stored procedure serves the purpose of automating data extraction, processing, and archiving tasks. It plays a crucial role in generating historical data reports. The CSV files produced by the procedure are stored for future reference and analysis.
+
+Skills and Expertise Gained:
+
+Participating in the development and maintenance of the "proc_deviation" stored procedure has provided me with valuable skills in Transact-SQL, data extraction, temporary table management, and error handling in SQL Server environments. Additionally, I gained experience in automating file export processes and interfacing with external systems for data retrieval.
+
+This stored procedure exemplifies my ability to design and implement data processing routines and to handle error scenarios effectively within a database management context.
