@@ -1,38 +1,24 @@
 Project: Trading Data Analysis
+
+Technologies and Tools Used:
+
+PowerBI: Business intelligence and data visualization platform.
+T-SQL: Query language for SQL Server databases.
+PostgreSQL: Open-source relational database management system.
+Python: The programming language for data processing and analysis.
+ConfigParser: Python library for managing configuration files.
 Project Description:
-The trading data analysis project aims to prepare data and create a report in PowerBI for studying trading results for individual logins. The primary data source is the "close trades" table in the database. This project leverages skills in PowerBI, T-SQL, PostgreSQL, and Python.
+The "Trading Data Analysis" project focuses on harnessing the power of data analysis to provide in-depth insights into trading activities. Using PowerBI, T-SQL, PostgreSQL, and Python, this project aims to enable users to make data-driven decisions in the world of finance.
 
-Required Fields in the Report:
+Key Features of the Project:
 
-Number of trades per instrument.
-Total instrument result.
-Median result per position per instrument.
-Average result per position per instrument.
-Standard deviation of the result per position per instrument.
-Median duration per position per instrument.
-Average duration per position per instrument.
-Maximum duration per position per instrument.
-Minimum duration per position per instrument.
-Standard deviation of duration per position per instrument.
-Profit on trades.
-Number of trades.
-Percentage of profitable trades.
-Percentage of profitable trades in time intervals: up to 2 minutes, 2-10 minutes, 10-30 minutes, 30-120 minutes, 2-10 hours, 10-24 hours, 1-5 days, 5-30 days, more than 30 days.
-Data Analysis:
+Data Visualization: Utilizes PowerBI for creating visually compelling and interactive reports.
+Database Integration: T-SQL and PostgreSQL are employed to extract, transform, and load data for analysis.
+Data Processing: Python is utilized to perform complex data processing, calculations, and statistical analysis.
+Configuration Management: ConfigParser ensures efficient handling of project configurations.
+User-Friendly Interface: The project offers an intuitive and user-friendly interface for easy data exploration.
+Project Results:
+The "Trading Data Analysis" project empowers users to explore and analyze trading data comprehensively, leading to more informed decisions in the financial realm. The integration of PowerBI, T-SQL, PostgreSQL, and Python streamlines data analysis, enabling quick access to essential information for detailed analysis and reporting.
 
-Detailed results per instrument: spread, closed, delta, comm, swap, roll, MM.
-NBC value, corr, deposits, withdrawals.
-Trade turnover statistics per instrument asset class, nominal, lot.
-Distribution of trade results.
-Chart of results (closed+open) at the end of the day.
-Information about all accounts and individuals.
-Position vs. portfolio statistics (xrisk data) per symbol.
-ML entry statistics (considering effective margin and Trading_ratio).
-Execution times, average profitable time, average losing time, number of losing and profitable trades, losing/profitable ratios.
-Origin of data.
-Hedge simulation as the final point (for consideration).
-Project Benefits:
-This project will enhance the understanding and analysis of trading results, facilitating more informed investment decisions. Utilizing PowerBI and T-SQL/PostgreSQL databases allows for efficient data analysis.
-
-Conclusions and Skills Gained:
-This project has allowed me to develop skills in data analysis using PowerBI and working with T-SQL and PostgreSQL databases. I gained experience in creating advanced trading data reports and visualizations, which can significantly contribute to making informed decisions in the future.
+Project Insights and Skills Gained:
+Participation in the "Trading Data Analysis" project has provided practical experience in leveraging PowerBI for data visualization, working with T-SQL and PostgreSQL for database integration, and using Python for advanced data analysis. The project has enhanced skills in configuring and managing complex data analysis pipelines and solidified expertise in making data-driven decisions in the financial sector. This project serves as a testament to my ability to analyze and interpret financial data effectively using various technologies and tools.
